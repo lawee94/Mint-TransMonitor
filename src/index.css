@@ -155,8 +155,82 @@ li {
   padding: 0;
 }
 .paymentGraph section {
-  margin-right: 5px;
+  margin-right: 1px;
   padding: 15px 0;
+}
+.graph {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.graphTop {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.graphTop select {
+  padding: 5px 10px;
+  border: 1px solid #dde0e3;
+  border-radius: 4.25px;
+  background-color: #fff;
+  margin-right: 20px;
+  color: #7f8fa4;
+  outline: #dde0e3;
+}
+.graphTop h5 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #4f4f4f;
+  font-weight: 900;
+}
+.graphTop span {
+  font-weight: 900;
+}
+.carousel-item img {
+  margin-top: -50px;
+}
+.orders {
+  color: #262626;
+  background-color: #fff;
+  margin-bottom: 2px;
+  min-height: 180px;
+}
+.orders li {
+  position: relative;
+  background: #fdc203;
+  margin: 0 0 5px 0;
+  height: 5px;
+  border-radius: 3px;
+}
+.orders .range {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  background: #27ae60;
+  display: inline-block;
+  height: 5px;
+  border-radius: 3px;
+}
+.orders p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.text-yellow,
+.text-green,
+.text-blue {
+  font-size: 16px;
+  font-weight: 900;
+}
+.text-yellow {
+  color: #fdc203;
+}
+.text-green {
+  color: #27ae60;
+}
+.text-blue {
+  color: #1875f0;
 }
 
 .bg-white {
