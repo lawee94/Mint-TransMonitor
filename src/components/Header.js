@@ -1,7 +1,4 @@
 import React, { Fragment } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as fas from "@fortawesome/free-solid-svg-icons";
-import * as far from "@fortawesome/free-regular-svg-icons";
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from "react-bootstrap";
 
 export default function Header() {
@@ -45,11 +42,6 @@ export default function Header() {
                   <img src="./images/img.png" />
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink>
-                  <img src="./images/img.png" />
-                </NavLink>
-              </NavItem> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
