@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e5e5;
+  padding: 0;
+}
+body,
+html,
+#root {
+  min-height: 100vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+li {
+  list-style: none;
+}
+.row {
+  height: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.header {
+  top: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+  padding: 0 45px;
+  z-index: 1;
+}
+
+/* Hamburger */
+.hamburger {
+  max-width: 260px;
+  left: 0;
+  background-color: #ffffff;
+  min-height: 100%;
+  color: #647787;
+  padding-right: 0;
+  padding-left: 0;
+}
+.hamburger img {
+  width: 20px;
+  margin-right: 20px;
+}
+.inv {
+  width: 163px;
+  height: 33px;
+  color: #fff;
+  background: #27ae60;
+  border-radius: 30px;
+  margin: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.menu li,
+.menu p {
+  width: auto;
+  margin-bottom: 0px;
+  font-weight: 400;
+  padding: 5px 0 8px 40px;
+}
+.menu li.act,
+.menu li:hover {
+  background-color: #e1eefc;
+  border-left: 4px solid #1875f0;
+  cursor: pointer;
+  padding: 5px 0 8px 36px;
+}
+#main,
+#payments,
+#orders {
+  margin-bottom: 25px;
+}
+
+/* Nav */
+.navbar {
+  padding: 0;
+}
+.nav-item {
+  margin: 0 15px;
+  font-size: 14px;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+}
+.navbar-light .navbar-brand {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1875f0;
+}
+.user {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.form-control-plaintext {
+  outline: none;
+}
+.notification {
+  position: absolute;
+  border-radius: 50%;
+  background: #1860ec;
+  top: 10px;
+  margin-left: 5px;
+  padding: 1px 5px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 13px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+.bg-white {
+  background-color: #fff;
+}
+.font10,
+.font11,
+.font14,
+.search {
+  color: #647787;
+}
+.font10 {
+  font-size: 10px;
+  line-height: 5px;
+}
+.font11 {
+  font-size: 14px;
+  line-height: 15px;
+}
+.font14 {
+  font-size: 14px;
+  line-height: 19px;
+}
