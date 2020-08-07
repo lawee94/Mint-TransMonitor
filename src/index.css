@@ -113,20 +113,36 @@ li {
 .form-control-plaintext {
   outline: none;
 }
-.notification {
-  position: absolute;
-  border-radius: 50%;
-  background: #1860ec;
-  top: 10px;
-  margin-left: 5px;
-  padding: 1px 5px;
-  color: #fff;
-  font-size: 10px;
-  line-height: 13px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
+
+/* Payment Statictics */
+.paymentStat .row {
+  padding: 0;
 }
+.paymentStat .col-md-3 {
+  padding: 0;
+}
+.paymentStat section {
+  width: auto;
+  height: 100%;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #eef8fd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 10px;
+}
+.paymentStat section span {
+  font-size: 12px;
+  line-height: 16px;
+}
+.paymentStat section p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.paymentStat section img {
+  float: right;
+}
+
 .bg-white {
   background-color: #fff;
 }

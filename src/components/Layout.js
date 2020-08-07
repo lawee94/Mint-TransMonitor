@@ -15,8 +15,8 @@ export default function Layout() {
           <Col className="hamburger">
             <Hamburger />
           </Col>
-          <Col>
-            <Col className="p-5 mt-4 bg-white">
+          <Col className="p-4">
+            <Col className=" p-5 mt-3 bg-white">
               <PaymentStats />
             </Col>
             <Col className="p-5 mt-3 bg-white">

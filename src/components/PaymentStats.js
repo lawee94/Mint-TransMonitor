@@ -1,9 +1,6 @@
 import React, { Fragment } from "react";
+import { Col, Row } from "react-bootstrap";
 
 export default function PaymentStats() {
-  return (
-    <Fragment>
-      <span>The Payment Statistic</span>
-    </Fragment>
-  );
+  return <Fragment></Fragment>;
 }
