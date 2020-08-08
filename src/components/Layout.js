@@ -13,17 +13,17 @@ export default function Layout() {
       <section className="min-vh-100 d-flex flex-column">
         <Header />
         <Row className="flex-grow-1 ">
-          <Col className="hamburger">
+          <Col className="hamburger desktopOnly" id="hamburger">
             <Hamburger />
           </Col>
-          <Col className="p-4">
+          <Col className="p-4 content">
             <Col className="p-0">
               <PaymentStats />
             </Col>
             <Col className="p-0 my-4">
               <PaymentGraph />
             </Col>
-            <Col className="p-5 mt-3 bg-white">
+            <Col className="p-0">
               <PaymentTable />
             </Col>
           </Col>

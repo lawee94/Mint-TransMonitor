@@ -5,7 +5,7 @@ export default function PaymentStats() {
   return (
     <Fragment>
       <Row className="paymentStat">
-        <Col lg={3}>
+        <Col md={3}>
           <section>
             <div className="d-inline-block float-left">
               <span>Daily Transcation Volume</span>
@@ -14,7 +14,7 @@ export default function PaymentStats() {
             <img src="./images/graph.png" alt="" />
           </section>
         </Col>
-        <Col lg={3}>
+        <Col md={3}>
           <section>
             <div className="d-inline-block float-left">
               <span>Daily Transcation Value</span>
@@ -23,7 +23,7 @@ export default function PaymentStats() {
             <img src="./images/graph.png" alt="" />
           </section>
         </Col>
-        <Col lg={3}>
+        <Col md={3}>
           <section>
             <div className="d-inline-block float-left">
               <span>Total Transcation Volume</span>
@@ -32,7 +32,7 @@ export default function PaymentStats() {
             <img src="./images/graph.png" alt="" />
           </section>
         </Col>
-        <Col lg={3}>
+        <Col md={3}>
           <section>
             <div className="d-inline-block float-left">
               <span>Total Transcation Value</span>

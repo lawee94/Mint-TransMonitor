@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Col, Row, Carousel } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 export default function PaymentStats() {
   return (
@@ -12,7 +12,7 @@ export default function PaymentStats() {
                 <h5>Today: 5, Aug 2018</h5>
                 <div></div>
                 <div className="float-right">
-                  <select class="">
+                  <select className="desktopOnly">
                     <option>1 Jan - 1 Jun</option>
                     <option>1 Jul - 1 Dec</option>
                   </select>
