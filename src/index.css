@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(./fonts/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"), url(./fonts/SegoeUI.ttf) format("truetype");
+}
+
 body {
   margin: 0;
   font-family: Segoe UI;
